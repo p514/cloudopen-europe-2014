@@ -1,0 +1,10 @@
+01. staging - pillar - groups -> normal pillar definition
+02. staging - state  - groups -> conditionals in states
+03. staging - pillar - users  -> conditionals in pillars
+04. staging - state  - users  -> normal state definition
+05. development - pillar - groups -> normal pillar definition
+06. development - state  - groups -> normal state definition using pillar data
+07. development - pillar - users  -> normal pillar definition using dict for list of users
+08. development - state  - users  -> complex state definition using conditionals, variables and iteration
+09. production  - pillar - ntp -> normal pillar definition
+10. production  - state  - ntp -> advanced state definition using separate sls file

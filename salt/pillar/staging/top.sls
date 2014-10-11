@@ -1,0 +1,4 @@
+staging:
+  '*':
+    - groups
+    - users
