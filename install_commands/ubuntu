@@ -1,0 +1,9 @@
+apt-get -y install python-software-properties
+
+add-apt-repository ppa:saltstack/salt
+
+apt-get -y update
+
+apt-get -y install salt-master
+
+apt-get -y install salt-minion
